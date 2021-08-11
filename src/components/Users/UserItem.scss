@@ -1,0 +1,19 @@
+li {
+  border: 1px solid #b9b9b9;
+  padding: 5px 8px;
+  margin-bottom: 5px;
+
+  display: flex;
+}
+
+.button-action {
+  margin-left: auto;
+  span {
+    display: inline-block;
+    cursor: pointer;
+
+    &:first-child {
+      margin-right: 10px;
+    }
+  }
+}

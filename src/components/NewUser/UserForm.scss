@@ -1,0 +1,35 @@
+form {
+  //padding: 15px;
+}
+
+.form-group {
+  margin-bottom: 10px;
+  label {
+    display: inline-block;
+    margin-bottom: 5px;
+  }
+}
+
+.form-control {
+  display: block;
+}
+.group-button {
+  display: flex;
+
+  .cancel {
+    margin-left: auto;
+    background-color: #efefef;
+    color: initial;
+  }
+}
+button {
+  cursor: pointer;
+  padding: 5px 15px;
+  border: 1px solid #40005d;
+  background-color: #40005d;
+  color: white;
+}
+
+input {
+  width: 100%;
+}
